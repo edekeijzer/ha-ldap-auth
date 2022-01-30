@@ -1,4 +1,5 @@
-# ha-ldap-auth
+# Home Assistant LDAP Auth
+
 Simple script to have LDAP authentication in Home Assistant Docker, using [NGINX's ldap-auth container](https://github.com/nginxinc/nginx-ldap-auth).
 
 ## Usage
