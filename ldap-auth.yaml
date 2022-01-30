@@ -1,0 +1,5 @@
+auth-url: 'http://127.0.0.1:8888'
+ldap-url: 'ldap://ldap.example.com'
+ldap-basedn: 'OU=Users,DC=example,DC=com'
+ldap-template: '(uid=%(username)s)'
+ldap-starttls: false
