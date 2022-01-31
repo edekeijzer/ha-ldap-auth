@@ -38,4 +38,4 @@ The NGINX ldap-auth container is controlled by sending specific headers that are
 ## Disclaimer
 This was written for personal use, to re-enable LDAP authentication in the Home Assistant Docker image, which lacks the Python LDAP module as well as LDAP support in curl. There's hardly any error handling and I am in no way responsible for any security issues caused by the use of this script. Misconfigurations *can* expose your Home Assistant installation to malicious people.
 
-NGINX **does not** supply Docker images for their container. Please note that someone else's image from a repository could expose your Home Assistant and/or leak your credentials so I'd recommend you to build your own.
+NGINX **does not** supply Docker images for their container. Please note that someone else's image from a repository could expose your Home Assistant and/or leak your credentials so I'd recommend you to build your own, or use the [LinuxServer ldap-auth](https://github.com/linuxserver/docker-ldap-auth) container.
