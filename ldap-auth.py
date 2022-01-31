@@ -37,8 +37,8 @@ if 'ldap-basedn' in config:
 
 if 'ldap-binddn' in config:
     headers['X-LDAP-BindDN'] = config['ldap-binddn']
-  if 'ldap-bindpass' in config:
-      headers['X-LDAP-BindPass'] = config['ldap-bindpass']
+    if 'ldap-bindpass' in config:
+        headers['X-LDAP-BindPass'] = config['ldap-bindpass']
 
 if 'ldap-template' in config:
     headers['X-LDAP-Template'] = config['ldap-template']
